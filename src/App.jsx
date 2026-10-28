@@ -42,7 +42,12 @@ function App() {
       <div
         style={{
           minHeight: "100vh",
-          backgroundColor: "#0f172a",
+          // backgroundColor: "#0f172a",
+          backgroundImage:
+            "linear-gradient(rgba(15, 23, 42, 0.85), rgba(15, 23, 42, 0.85)), url('./assets/gameBackground.png')",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
           color: "#f8fafc",
           fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
           padding: "30px 20px",
@@ -133,7 +138,11 @@ function App() {
     <div
       style={{
         minHeight: "100vh",
-        backgroundColor: "#0f172a",
+        backgroundImage:
+          "linear-gradient(rgba(15, 23, 42, 0.85), rgba(45, 63, 82, 0.5)), url('/gameBackground.png')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
         color: "#f8fafc",
         fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
         padding: "60px 20px",
